@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Natan &amp; Thayná · 09.01.2027</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300;1,9..144,400&amp;family=Work+Sans:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<style>
+:root{--off:#FAF6F0;--terra:#B04F2A;--moss:#5B6B45;--sand:#E9DDCB;--beige:#F2EADF;--brown:#6B4F3F;--ink:#3A2E27;}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{font-family:'Work Sans',sans-serif;color:var(--ink);width:100%;
+  background-image:radial-gradient(rgba(107,79,63,.05) 1px,transparent 1px);background-size:22px 22px}
+.serif{font-family:'Fraunces',serif}
+.app-wrapper{width:100%;overflow-x:hidden}
+.inner{max-width:1120px;margin:0 auto;padding:0 1.25rem}
+.sec{padding:5.5rem 0}
+@media(min-width:768px){.sec{padding:7.5rem 0}}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:52px;padding:.9rem 2rem;border-radius:999px;letter-spacing:.14em;font-weight:600;transition:transform .3s,box-shadow .3s,filter .3s;cursor:pointer;text-align:center}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px -10px rgba(176,79,42,.55);filter:brightness(1.05)}
+a:focus-visible,button:focus-visible{outline:2px solid var(--moss);outline-offset:3px}
+.eyebrow-line{display:flex;align-items:center;gap:.75rem;justify-content:center;color:var(--moss)}
+.eyebrow-line::before,.eyebrow-line::after{content:"";height:1px;width:48px;background:currentColor;opacity:.5}
+.reveal{opacity:0;transform:translateY(24px);transition:opacity 1s ease,transform 1s ease}
+.reveal.in{opacity:1;transform:none}
+.frame{position:relative;overflow:hidden}
+.frame img{transition:transform 1.4s ease}
+.frame:hover img{transform:scale(1.05)}
+.ph-tag{position:absolute;left:.6rem;bottom:.6rem;background:rgba(250,246,240,.85);color:var(--brown);font-size:.68rem;padding:.2rem .55rem;border-radius:999px;letter-spacing:.05em;pointer-events:none}
+.hero-img{animation:slowzoom 18s ease-out forwards}
+@keyframes slowzoom{from{transform:scale(1.1)}to{transform:scale(1)}}
+.fade-up{opacity:0;animation:fu 1.2s ease forwards}
+@keyframes fu{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.d1{animation-delay:.3s}.d2{animation-delay:.6s}.d3{animation-delay:.9s}.d4{animation-delay:1.2s}
+.tl{position:relative}
+.tl::before{content:"";position:absolute;top:0;bottom:0;left:15px;width:1px;background:linear-gradient(var(--sand),var(--moss),var(--sand))}
+@media(min-width:768px){.tl::before{left:50%}}
+.tl-item{position:relative;padding-left:3rem;margin-bottom:2.5rem}
+.tl-dot{position:absolute;left:8px;top:1.4rem;width:15px;height:15px;border-radius:50%;background:var(--off);border:2px solid var(--terra)}
+@media(min-width:768px){
+  .tl-item{width:50%;padding-left:0;padding-right:3rem}
+  .tl-item:nth-child(even){margin-left:50%;padding-right:0;padding-left:3rem}
+  .tl-dot{left:auto;right:-8px}
+  .tl-item:nth-child(even) .tl-dot{left:-7px;right:auto}
+}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);grid-auto-rows:150px;gap:.8rem}
+@media(min-width:768px){.gallery{grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;gap:1rem}}
+.g-tall{grid-row:span 2}.g-wide{grid-column:span 2}
+.gift-card{transition:transform .4s,box-shadow .4s,border-color .4s}
+.gift-card:hover{transform:translateY(-4px)}
+.gift-card.selected{border-color:var(--terra)!important;box-shadow:0 18px 40px -22px rgba(176,79,42,.6)}
+.toast{position:fixed;left:50%;bottom:1.5rem;transform:translateX(-50%);z-index:60;padding:.85rem 1.4rem;border-radius:14px;box-shadow:0 12px 30px -12px rgba(0,0,0,.35);max-width:90%}
+.leaf{color:var(--moss);opacity:.55}
+.organic{border-radius:58% 42% 50% 50% / 45% 50% 50% 55%}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal,.fade-up{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+<script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+
+<style id="smooth-scroll-fix">
+html {
+    scroll-behavior: smooth;
+}
+</style>
+
+</head>
+<body data-template-id="__page-root" style="background: rgb(250, 246, 240);">
+<div class="app-wrapper">
+<header class="canva-header fixed top-0 inset-x-0 z-50 backdrop-blur border-b" data-template-id="site-header" style="border-color: rgba(107, 79, 63, 0.12); background: rgba(250, 246, 240, 0.9);">
+<div class="inner flex items-center justify-between h-16">
+<a aria-label="Voltar ao início" class="canva-link serif tracking-wide" data-template-id="nav-monogram" href="#inicio" style="color: rgb(176, 79, 42); font-weight: 400; font-style: normal; font-size: 22px;">N &amp; T</a>
+<nav aria-label="Navegação principal" class="hidden md:flex gap-8">
+<a class="canva-link hover:opacity-70 transition" data-template-id="nav-inicio" href="#inicio" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 15px;">Início</a> <a class="canva-link hover:opacity-70 transition" data-template-id="nav-historia" href="#historia" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 15px;">Nossa história</a> <a class="canva-link hover:opacity-70 transition" data-template-id="nav-dia" href="#grande-dia" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 15px;">O grande dia</a> <a class="canva-link hover:opacity-70 transition" data-template-id="nav-rsvp" href="#rsvp" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 15px;">RSVP</a> <a class="canva-link hover:opacity-70 transition" data-template-id="nav-presentes" href="#presentes" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 15px;">Presentes</a>
+</nav><button aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menu" class="md:hidden w-12 h-12 flex items-center justify-center rounded-full" id="menu-btn" style="color:#5B6B45"> <i data-lucide="menu"></i> </button>
+</div>
+<nav aria-label="Menu móvel" class="md:hidden hidden border-t" id="mobile-menu" style="border-color:rgba(107,79,63,.12)">
+<div class="flex flex-col py-3 px-5">
+<a class="canva-link py-3" data-template-id="nav-inicio" href="#inicio" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 15px;">Início</a> <a class="canva-link py-3" data-template-id="nav-historia" href="#historia" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 15px;">Nossa história</a> <a class="canva-link py-3" data-template-id="nav-dia" href="#grande-dia" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 15px;">O grande dia</a> <a class="canva-link py-3" data-template-id="nav-rsvp" href="#rsvp" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 15px;">RSVP</a> <a class="canva-link py-3" data-template-id="nav-presentes" href="#presentes" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 15px;">Presentes</a>
+</div>
+</nav>
+</header>
+<main>
+<!-- HERO -->
+<section class="relative w-full overflow-hidden" id="inicio" style="min-height:calc(100 * min(var(--vh, 1vh), 1vh))">
+<img alt="Casal formando um coração com os braços na praia durante o pôr do sol" class="canva-image hero-img absolute inset-0 w-full h-full object-cover" data-template-id="hero-image" loading="lazy" src="imagens/capa.jpeg"/>
+<div class="absolute inset-0" style="background:linear-gradient(180deg,rgba(58,46,39,.25) 0%,rgba(58,46,39,.35) 45%,rgba(58,46,39,.72) 100%)"></div>
+<div class="relative z-10 flex flex-col items-center justify-end text-center px-5 pb-20 pt-32" style="min-height:calc(100 * min(var(--vh, 1vh), 1vh))">
+<svg aria-hidden="true" class="fade-up mb-5" fill="none" height="28" stroke="#F2EADF" stroke-width="1" viewbox="0 0 90 28" width="90"><path d="M2 14h86"></path><path d="M45 14c-6-8-14-9-18-6 5 1 11 3 18 6zm0 0c6-8 14-9 18-6-5 1-11 3-18 6z"></path>
+</svg>
+<h1 class="canva-text serif fade-up d1 leading-none" data-template-id="hero-names" style="color: rgb(250, 246, 240); font-weight: 300; font-style: normal; font-size: 64px; line-height: 1.05;">Natan &amp; Thayná</h1>
+<p class="canva-text fade-up d2 mt-5" data-template-id="hero-date" style="color: rgb(242, 234, 223); font-weight: 500; font-style: normal; font-size: 18px; letter-spacing: 0.35rem;">09.01.2027</p>
+<p class="canva-text fade-up d3 mt-6 max-w-xl" data-template-id="hero-tagline" style="color: rgb(250, 246, 240); font-weight: 300; font-style: italic; font-size: 20px; line-height: 1.5;">Portanto deixará o homem o seu pai e a sua mãe, e apegar-se-á à sua mulher, e serão ambos uma carne. Gênesis 2:24</p><a class="canva-button btn fade-up d4 mt-10" data-template-id="hero-cta" href="#contagem" style="background: rgb(176, 79, 42); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 14px;">ENTRAR NO NOSSO SITE</a>
+</div>
+</section><!-- CONTAGEM -->
+<section class="canva-section sec" data-template-id="countdown-section" id="contagem" style="background: rgb(242, 234, 223);">
+<div class="inner text-center reveal">
+<h2 class="canva-text serif" data-template-id="countdown-title" style="color: rgb(176, 79, 42); font-weight: 300; font-style: normal; font-size: 36px;">Nosso grande dia está chegando</h2>
+<p class="canva-text mt-4" data-template-id="countdown-date" style="color: rgb(91, 107, 69); font-weight: 500; font-style: normal; font-size: 16px; letter-spacing: 0.3rem;">09 • 01 • 2027</p>
+<div class="mt-12 grid grid-cols-4 gap-3 sm:gap-6 max-w-2xl mx-auto" id="countdown-running">
+<div class="canva-card rounded-2xl py-5 border" data-template-id="count-box" style="border-color: rgba(107, 79, 63, 0.15); background: rgb(250, 246, 240);">
+<p class="canva-text serif" data-template-id="count-number" id="cd-d" style="color: rgb(58, 46, 39); font-weight: 300; font-size: 40px;">--</p>
+<p class="canva-text mt-1" data-template-id="label-dias" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 11px; letter-spacing: 0.2rem;">DIAS</p>
+</div>
+<div class="canva-card rounded-2xl py-5 border" data-template-id="count-box" style="border-color: rgba(107, 79, 63, 0.15); background: rgb(250, 246, 240);">
+<p class="canva-text serif" data-template-id="count-number" id="cd-h" style="color: rgb(58, 46, 39); font-weight: 300; font-size: 40px;">--</p>
+<p class="canva-text mt-1" data-template-id="label-horas" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 11px; letter-spacing: 0.2rem;">HORAS</p>
+</div>
+<div class="canva-card rounded-2xl py-5 border" data-template-id="count-box" style="border-color: rgba(107, 79, 63, 0.15); background: rgb(250, 246, 240);">
+<p class="canva-text serif" data-template-id="count-number" id="cd-m" style="color: rgb(58, 46, 39); font-weight: 300; font-size: 40px;">--</p>
+<p class="canva-text mt-1" data-template-id="label-minutos" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 11px; letter-spacing: 0.2rem;">MINUTOS</p>
+</div>
+<div class="canva-card rounded-2xl py-5 border" data-template-id="count-box" style="border-color: rgba(107, 79, 63, 0.15); background: rgb(250, 246, 240);">
+<p class="canva-text serif" data-template-id="count-number" id="cd-s" style="color: rgb(58, 46, 39); font-weight: 300; font-size: 40px;">--</p>
+<p class="canva-text mt-1" data-template-id="label-segundos" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 11px; letter-spacing: 0.2rem;">SEGUNDOS</p>
+</div>
+</div>
+<p aria-live="polite" class="canva-text serif mt-12 hidden" data-template-id="countdown-arrived" id="countdown-done" style="color: rgb(176, 79, 42); font-weight: 400; font-style: italic; font-size: 32px;">Nosso grande dia chegou ❤️</p>
+</div>
+</section><!-- SAUDAÇÃO -->
+<section class="sec">
+<div class="inner grid md:grid-cols-2 gap-12 items-center">
+<div class="reveal text-center md:text-left">
+<p aria-hidden="true" class="eyebrow-line md:justify-start">✦</p>
+<h2 class="canva-text serif mt-4" data-template-id="greeting-title" style="color: rgb(176, 79, 42); font-weight: 300; font-style: normal; font-size: 38px; line-height: 1.2;">É uma alegria ter você conosco!</h2>
+<p class="canva-text mt-6" data-template-id="greeting-text" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.75;">Estamos vivendo um dos momentos mais especiais das nossas vidas e queremos celebrar esse dia ao lado das pessoas que amamos. Sua presença tornará esse momento ainda mais inesquecível.</p>
+</div>
+<div class="reveal relative h-80 sm:h-96">
+<div class="frame organic absolute left-0 top-0 w-3/5 h-4/5 shadow-xl">
+<img alt=" de mãos com alianças – substitua pela foto dos noivos" class="canva-image w-full h-full object-cover" data-template-id="greeting-image-1" loading="lazy" src="imagens/historia1.jpeg"/> 
+</div>
+<div class="frame absolute right-0 bottom-0 w-1/2 h-3/5 rounded-[2rem] shadow-xl border-4" style="border-color:#FAF6F0">
+<img alt=" de um casal abraçado em um campo ao pôr do sol – substitua pela foto dos noivos" class="canva-image w-full h-full object-cover" data-template-id="greeting-image-2" loading="lazy" src="imagens/historia2.jpeg"/> 
+</div>
+</div>
+</div>
+</section><!-- HISTÓRIA -->
+<section class="canva-section sec" data-template-id="story-section" id="historia" style="background: rgb(242, 234, 223);">
+<div class="inner">
+<div class="text-center reveal">
+<svg aria-hidden="true" class="leaf mx-auto" fill="none" height="30" stroke="currentColor" viewbox="0 0 60 30" width="60"><path d="M5 25C20 20 35 12 55 5"></path><path d="M20 19c-2-6 1-10 6-11-1 5-3 8-6 11zM34 13c-1-6 2-9 7-10-1 5-4 8-7 10zM26 17c5-3 10-2 12 2-5 1-9 0-12-2z"></path>
+</svg>
+<h2 class="canva-text serif mt-3" data-template-id="story-title" style="color: rgb(176, 79, 42); font-weight: 300; font-style: normal; font-size: 40px;">Nossa história</h2>
+<p class="canva-text mt-3" data-template-id="story-note" style="color: rgb(107, 79, 63); font-weight: 400; font-style: italic; font-size: 14px;">De modo inusitado, Deus, com Sua infinita bondade, nos uniu, a fim de que o Seu propósito em nós e através de nós se cumpra. Nessa jornada de um pouco mais de 3 anos caminhando juntos vivemos dias tranquilos e nem tão tranquilos assim, mas certos de que a mão poderosa de Deus é o que mais precisamos sempre!</p>
+</div>
+<div class="tl mt-14 max-w-4xl mx-auto">
+<div class="tl-item reveal">
+<article class="canva-card rounded-2xl p-6 border" data-template-id="story-card" style="border-color: rgba(107, 79, 63, 0.12); background: rgb(250, 246, 240);">
+<h3 class="canva-text serif" data-template-id="story-1-title" style="color: rgb(91, 107, 69); font-weight: 400; font-style: normal; font-size: 22px;">O começo</h3>
+<p class="canva-text mt-2" data-template-id="story-1-text" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">De um lado, Natan, certo do que queria; do outro, Thayná, cheia de dúvidas e receios.</p>
+</article>
+</div>
+<div class="tl-item reveal">
+<article class="canva-card rounded-2xl p-6 border" data-template-id="story-card" style="border-color: rgba(107, 79, 63, 0.12); background: rgb(250, 246, 240);">
+<h3 class="canva-text serif" data-template-id="story-2-title" style="color: rgb(91, 107, 69); font-weight: 400; font-style: normal; font-size: 22px;">O desenrolar da história</h3>
+<p class="canva-text mt-2" data-template-id="story-2-text" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">Após a decisão de realizar um período de oração, Natan e Thayná passaram três meses pedindo a Deus a direção que Ele tinha para os dois.</p>
+</article>
+</div>
+<div class="tl-item reveal">
+<article class="canva-card rounded-2xl p-6 border" data-template-id="story-card" style="border-color: rgba(107, 79, 63, 0.12); background: rgb(250, 246, 240);">
+<h3 class="canva-text serif" data-template-id="story-3-title" style="color: rgb(91, 107, 69); font-weight: 400; font-style: normal; font-size: 22px;">Nossa história juntos</h3>
+<p class="canva-text mt-2" data-template-id="story-3-text" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">Em um culto de domingo, o pastor diz: “Levanta a mão quem está solteiro!”. Nem Natan nem Thayná conseguiram levantar a mão, e ali eles entenderam o que o coração já havia entendido.</p>
+</article>
+</div>
+<div class="tl-item reveal">
+<article class="canva-card rounded-2xl p-6 border" data-template-id="story-card" style="border-color: rgba(107, 79, 63, 0.12); background: rgb(250, 246, 240);">
+<h3 class="canva-text serif" data-template-id="story-4-title" style="color: rgb(91, 107, 69); font-weight: 400; font-style: normal; font-size: 22px;">O pedido</h3>
+<p class="canva-text mt-2" data-template-id="story-4-text" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">E assim, faltando apenas um dia para completarem três anos de namoro, Natan preparou uma surpresa na igreja, ao final do culto, surpreendendo Thayná com o pedido!</p>
+</article>
+</div>
+<div class="tl-item reveal">
+<article class="canva-card rounded-2xl p-6 border" data-template-id="story-card" style="border-color: rgba(107, 79, 63, 0.12); background: rgb(250, 246, 240);">
+<h3 class="canva-text serif" data-template-id="story-5-title" style="color: rgb(176, 79, 42); font-weight: 400; font-style: normal; font-size: 22px;">O grande dia</h3>
+<p class="canva-text mt-2" data-template-id="story-5-text" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 16px; line-height: 1.6;">09 de janeiro de 2027 — o próximo capítulo, ao lado de quem amamos.</p>
+</article>
+</div>
+</div>
+</div>
+</section><!-- GRANDE DIA -->
+<section class="sec" id="grande-dia">
+<div class="inner text-center">
+<h2 class="canva-text serif reveal" data-template-id="day-title" style="color: rgb(176, 79, 42); font-weight: 300; font-style: normal; font-size: 40px;">O grande dia</h2>
+<div class="canva-card reveal mt-12 max-w-3xl mx-auto rounded-[2rem] p-8 sm:p-12 border" data-template-id="day-card" style="border-color: rgba(107, 79, 63, 0.15); background: rgb(255, 253, 249);">
+<div class="grid sm:grid-cols-3 gap-10">
+<div><span class="inline-flex w-12 h-12 rounded-full items-center justify-center" style="background:#E9DDCB;color:#5B6B45"><i data-lucide="calendar-heart"></i></span>
+<p class="canva-text serif mt-4" data-template-id="day-date" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 20px;">09 de janeiro de 2027</p>
+</div>
+<div><span class="inline-flex w-12 h-12 rounded-full items-center justify-center" style="background:#E9DDCB;color:#5B6B45"><i data-lucide="clock"></i></span>
+<p class="canva-text serif mt-4" data-template-id="day-time" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 20px;">19h00</p>
+</div>
+<div><span class="inline-flex w-12 h-12 rounded-full items-center justify-center" style="background:#E9DDCB;color:#5B6B45"><i data-lucide="map-pin"></i></span>
+<p class="canva-text serif mt-4" data-template-id="day-venue" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 20px;">La Belle Festas &amp; Eventos</p>
+<p class="canva-text mt-1" data-template-id="day-address" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 15px;">Avenida Calógeras, 496</p>
+<p class="canva-text" data-template-id="day-city" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 15px;">Campo Grande – MS</p>
+</div>
+</div><button aria-label="Como chegar ao local da cerimônia" class="canva-button btn mt-10" data-template-id="maps-cta" id="maps-btn" style="background: rgb(176, 79, 42); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 14px;" type="button">COMO CHEGAR</button>
+</div>
+</div>
+</section><!-- RSVP -->
+<section class="canva-section sec" data-template-id="rsvp-section" id="rsvp" style="background: rgb(91, 107, 69);">
+<div class="inner max-w-3xl text-center reveal">
+<p aria-hidden="true" class="eyebrow-line">✦</p>
+<h2 class="canva-text serif mt-4" data-template-id="rsvp-title" style="color: rgb(250, 246, 240); font-weight: 300; font-style: normal; font-size: 40px;">Confirme sua presença</h2>
+<p class="canva-text mt-6" data-template-id="rsvp-text" style="color: rgb(242, 234, 223); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.7;">Sua presença tornará nosso dia ainda mais especial. Confirme sua presença para que possamos preparar tudo com muito carinho.</p><button aria-label="Confirmar presença no casamento" class="canva-button btn mt-10 w-full sm:w-auto" data-template-id="rsvp-cta" id="rsvp-btn" style="background: rgb(176, 79, 42); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 15px;" type="button">CONFIRMAR PRESENÇA</button>
+<div class="canva-panel mt-12 rounded-2xl p-6 sm:p-8 text-left border" data-template-id="rsvp-info" style="border-color: rgba(107, 79, 63, 0.15); background: rgba(250, 246, 240, 0.08);">
+<h3 class="canva-text serif" data-template-id="rsvp-info-title" style="color: rgb(250, 246, 240); font-weight: 400; font-style: normal; font-size: 18px;">No formulário de confirmação você informará:</h3>
+<ul class="mt-4 grid sm:grid-cols-2 gap-x-6 gap-y-2">
+<li class="flex gap-2"><span style="color:#5B6B45">•</span><span class="canva-text" data-template-id="rsvp-f1" style="color: rgb(242, 234, 223); font-weight: 400; font-style: normal; font-size: 15px;">Nome completo</span></li>
+<li class="flex gap-2"><span style="color:#5B6B45">•</span><span class="canva-text" data-template-id="rsvp-f2" style="color: rgb(242, 234, 223); font-weight: 400; font-style: normal; font-size: 15px;">Telefone / WhatsApp</span></li>
+<li class="flex gap-2"><span style="color:#5B6B45">•</span><span class="canva-text" data-template-id="rsvp-f3" style="color: rgb(242, 234, 223); font-weight: 400; font-style: normal; font-size: 15px;">Confirmação de presença</span></li>
+<li class="flex gap-2"><span style="color:#5B6B45">•</span><span class="canva-text" data-template-id="rsvp-f6" style="color: rgb(242, 234, 223); font-weight: 400; font-style: normal; font-size: 15px;">Adultos e crianças</span></li>
+<li class="flex gap-2"><span style="color:#5B6B45">•</span><span class="canva-text" data-template-id="rsvp-f7" style="color: rgb(242, 234, 223); font-weight: 400; font-style: normal; font-size: 15px;">Idade de cada criança</span></li>
+</ul>
+</div>
+</div>
+</section><!-- PRESENTES -->
+<section class="sec" id="presentes">
+<div class="inner">
+<div class="text-center reveal max-w-2xl mx-auto">
+<h2 class="canva-text serif" data-template-id="gifts-title" style="color: rgb(176, 79, 42); font-weight: 300; font-style: normal; font-size: 38px; line-height: 1.2;">Sua oportunidade de ser um instrumento em nossas vidas!</h2>
+<p class="canva-text mt-5" data-template-id="gifts-text" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.7;">Para facilitar, nossa lista de presentes será transformada em contribuições via Pix. Sinta-se à vontade para nos abençoar conforme sentir em seu coração! Mas fique tranquilo(a): sua presença já será o nosso maior presente!</p>
+</div>
+<div class="mt-14 grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<article class="canva-card gift-card reveal rounded-[1.75rem] p-7 border flex flex-col" data-template-id="gift-card" style="border-color: rgba(107, 79, 63, 0.15); background: rgb(255, 253, 249);">
+<i data-lucide="plane" style="color:#5B6B45"></i>
+<h3 class="canva-text serif mt-4" data-template-id="gift-1-name" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 22px;">Lua de Mel</h3><p class="meta-presente" style="margin-top: 8px;margin-bottom: 0;color: #B04F2A;font-family: 'Work Sans', sans-serif;font-size: 14px;font-weight: 600;line-height: 1.4;">Meta: R$ 15.000,00</p>
+<p class="canva-text mt-2 flex-1" data-template-id="gift-1-desc" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 15px; line-height: 1.6;">Ajude-nos a criar memórias inesquecíveis e fazer a tão aguardada viagem de lua de mel!</p>
+<button aria-label="Presentear: Lua de Mel" class="canva-button btn gift-btn mt-5 w-full" data-template-id="gift-cta" style="background: rgb(176, 79, 42); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 14px;" type="button">PRESENTEAR</button>
+</article>
+<article class="canva-card gift-card reveal rounded-[1.75rem] p-7 border flex flex-col" data-template-id="gift-card" style="border-color: rgba(107, 79, 63, 0.15); background: rgb(255, 253, 249);">
+<i data-lucide="wine" style="color:#5B6B45"></i>
+<h3 class="canva-text serif mt-4" data-template-id="gift-2-name" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 22px;">Jantares Românticos</h3><p class="meta-presente" style="margin-top: 8px;margin-bottom: 0;color: #B04F2A;font-family: 'Work Sans', sans-serif;font-size: 14px;font-weight: 600;line-height: 1.4;">Meta: R$ 5.000,00</p>
+<p class="canva-text mt-2 flex-1" data-template-id="gift-2-desc" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 15px; line-height: 1.6;">Uma experiência especial como a lua de mel pede jantares em grande estilo!</p>
+<button aria-label="Presentear: Jantares Românticos" class="canva-button btn gift-btn mt-5 w-full" data-template-id="gift-cta" style="background: rgb(176, 79, 42); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 14px;" type="button">PRESENTEAR</button>
+</article>
+<article class="canva-card gift-card reveal rounded-[1.75rem] p-7 border flex flex-col" data-template-id="gift-card" style="border-color: rgba(107, 79, 63, 0.15); background: rgb(255, 253, 249);">
+<i data-lucide="map" style="color:#5B6B45"></i>
+<h3 class="canva-text serif mt-4" data-template-id="gift-3-name" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 22px;">Passeios Especiais</h3><p class="meta-presente" style="margin-top: 8px;margin-bottom: 0;color: #B04F2A;font-family: 'Work Sans', sans-serif;font-size: 14px;font-weight: 600;line-height: 1.4;">Meta: R$ 7.000,00</p>
+<p class="canva-text mt-2 flex-1" data-template-id="gift-3-desc" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 15px; line-height: 1.6;">E, para abrilhantar a nossa lua de mel, nada como aproveitar cada momento da viagem, vivendo aventuras especiais.</p>
+<button aria-label="Presentear: Passeios Especiais" class="canva-button btn gift-btn mt-5 w-full" data-template-id="gift-cta" style="background: rgb(176, 79, 42); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 14px;" type="button">PRESENTEAR</button>
+</article>
+<article class="canva-card gift-card reveal rounded-[1.75rem] p-7 border flex flex-col" data-template-id="gift-card" style="border-color: rgba(107, 79, 63, 0.15); background: rgb(255, 253, 249);">
+<i data-lucide="gift" style="color:#5B6B45"></i>
+<h3 class="canva-text serif mt-4" data-template-id="gift-4-name" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 22px;">Presente para os Noivos</h3><p class="meta-presente" style="margin-top: 8px;margin-bottom: 0;color: #B04F2A;font-family: 'Work Sans', sans-serif;font-size: 14px;font-weight: 600;line-height: 1.4;">Meta: R$ 20.000,00</p>
+<p class="canva-text mt-2 flex-1" data-template-id="gift-4-desc" style="color: rgb(107, 79, 63); font-weight: 400; font-style: normal; font-size: 15px; line-height: 1.6;">Com a nova vida juntos, alguns itens serão necessários para a formação do nosso lar.</p>
+<button aria-label="Presentear: Presente para os Noivos" class="canva-button btn gift-btn mt-5 w-full" data-template-id="gift-cta" style="background: rgb(176, 79, 42); color: rgb(255, 255, 255); font-weight: 600; font-style: normal; font-size: 14px;" type="button">PRESENTEAR</button>
+</article>
+</div>
+<div aria-live="polite" class="canva-panel hidden mt-10 max-w-3xl mx-auto rounded-[2rem] p-7 sm:p-10 border" data-template-id="pix-panel" id="pix-panel" style="border-color: rgba(107, 79, 63, 0.15); background: rgb(242, 234, 223);" tabindex="-1">
+<div class="grid sm:grid-cols-[1fr_auto] gap-8 items-center">
+<div>
+<h3 class="canva-text serif" data-template-id="pix-title" style="color: rgb(176, 79, 42); font-weight: 400; font-style: normal; font-size: 24px;">Dados para o Pix</h3>
+<p class="canva-text mt-5" data-template-id="pix-key-label" style="color: rgb(91, 107, 69); font-weight: 600; font-style: normal; font-size: 13px; letter-spacing: 0.1rem;">Chave Pix</p>
+<p class="canva-text" data-template-id="pix-key-value" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 16px;">21969868555</p>
+<p class="canva-text mt-4" data-template-id="pix-holder-label" style="color: rgb(91, 107, 69); font-weight: 600; font-style: normal; font-size: 13px; letter-spacing: 0.1rem;">Nome da titular</p>
+<p class="canva-text" data-template-id="pix-holder-value" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 16px;">Thayná dos Santos Maia</p>
+
+</div>
+<div class="canva-container w-44 h-44 mx-auto rounded-2xl border-2 border-dashed flex items-center justify-center p-4 text-center" data-template-id="pix-qr-box" style="border-color: rgb(176, 79, 42); background: rgb(250, 246, 240);"><img src="imagens/qrcode-pix.jpeg" alt="QR Code Pix para presentear os noivos" style="width:100%;height:100%;object-fit:contain;border-radius:12px;"></div>
+</div>
+</div>
+</div>
+</section><!-- GALERIA -->
+<section class="canva-section sec" data-template-id="gallery-section" style="background: rgb(242, 234, 223);">
+<div class="inner">
+<div class="text-center reveal">
+<h2 class="canva-text serif" data-template-id="gallery-title" style="color: rgb(176, 79, 42); font-weight: 300; font-style: normal; font-size: 40px;">Galeria</h2>
+<p class="canva-text mt-3" data-template-id="gallery-note" style="color: rgb(107, 79, 63); font-weight: 400; font-style: italic; font-size: 14px;">Um pouco dos nossos anos!</p>
+</div>
+<div class="gallery mt-12 reveal">
+<div class="frame rounded-2xl g-tall"><img alt=" de buquê com rosas, eucalipto e capim-dos-pampas" class="canva-image w-full h-full object-cover" data-template-id="gallery-1" loading="lazy" src="imagens/galeria1.jpeg"/>
+</div>
+<div class="frame rounded-2xl"><img alt=" de alianças douradas sobre um ramo de folhas" class="canva-image w-full h-full object-cover" data-template-id="gallery-2" loading="lazy" src="imagens/galeria2.jpeg"/>
+</div>
+<div class="frame rounded-2xl g-wide"><img alt=" de mesa elegante decorada com eucalipto" class="canva-image w-full h-full object-cover" data-template-id="gallery-3" loading="lazy" src="imagens/galeria3.jpeg"/>
+</div>
+<div class="frame rounded-2xl"><img alt=" de mãos dadas com aliança" class="canva-image w-full h-full object-cover" data-template-id="gallery-4" loading="lazy" src="imagens/galeria4.jpeg"/>
+</div>
+<div class="frame rounded-2xl g-tall"><img alt=" de buquê rústico com flores secas" class="canva-image w-full h-full object-cover" data-template-id="gallery-5" loading="lazy" src="imagens/galeria5.jpeg"/>
+</div>
+<div class="frame rounded-2xl"><img alt=" de mesa com decoração terracota, flores e velas" class="canva-image w-full h-full object-cover" data-template-id="gallery-6" loading="lazy" src="imagens/galeria6.jpeg"/>
+</div>
+<div class="frame rounded-2xl"><img alt=" de casal dançando sob luzes à noite" class="canva-image w-full h-full object-cover" data-template-id="gallery-7" loading="lazy" src="imagens/galeria7.jpeg"/>
+</div>
+<div class="frame rounded-2xl g-wide"><img alt=" de recepção ao ar livre com decoração terracota" class="canva-image w-full h-full object-cover" data-template-id="gallery-8" loading="lazy" src="imagens/galeria8.jpeg"/>
+</div>
+</div>
+</div>
+</section><!-- MENSAGEM FINAL -->
+<section class="sec">
+<div class="inner max-w-2xl text-center reveal">
+<svg aria-hidden="true" class="leaf mx-auto" fill="none" height="40" stroke="currentColor" viewbox="0 0 80 40" width="80"><path d="M40 38V8"></path><path d="M40 20c-8-2-14-8-15-15 8 1 13 7 15 15zm0 8c8-2 14-8 15-15-8 1-13 7-15 15z"></path>
+</svg>
+<h2 class="canva-text serif mt-4" data-template-id="final-title" style="color: rgb(176, 79, 42); font-weight: 300; font-style: normal; font-size: 44px;">Esperamos você!</h2>
+<p class="canva-text mt-6" data-template-id="final-text" style="color: rgb(58, 46, 39); font-weight: 400; font-style: normal; font-size: 18px; line-height: 1.75;">Estamos preparando tudo com muito carinho para celebrar esse dia ao lado das pessoas que fazem parte da nossa história. Será uma alegria enorme ter você conosco.</p><p>E, sobre tudo isto, revesti-vos de amor, que é o vínculo da perfeição. Colossenses 3:14.</p>
+<p class="canva-text serif mt-10" data-template-id="final-sign" style="color: rgb(107, 79, 63); font-weight: 400; font-style: italic; font-size: 20px;">Com carinho,</p>
+<p class="canva-text serif mt-2" data-template-id="final-names" style="color: rgb(176, 79, 42); font-weight: 300; font-style: normal; font-size: 42px;">Natan &amp; Thayná</p>
+<p class="canva-text mt-3" data-template-id="final-date" style="color: rgb(91, 107, 69); font-weight: 500; font-style: normal; font-size: 16px; letter-spacing: 0.25rem;">09.01.2027 ❤️</p>
+</div>
+</section>
+</main>
+<div class="canva-banner toast hidden" data-template-id="toast-pending" id="toast-pending" role="status" style="background: rgb(58, 46, 39); color: rgb(250, 246, 240); font-weight: 400; font-style: normal; font-size: 15px;">Este link será disponibilizado em breve pelos noivos.</div>
+</div>
+<script>
+// Pontos de integração: preencha com os links reais quando estiverem disponíveis.
+const MAPS_URL = "https://www.google.com/maps/search/?api=1&query=La+Belle+Festas+%26+Eventos%2C+Avenida+Cal%C3%B3geras%2C+496%2C+Campo+Grande%2C+MS";   // link do Google Maps
+const RSVP_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdVJU-1_MyPeQN6d6HJ7tpYslhkTiWiT07H1DUZJ3kgpHeWSA/viewform";   // formulário externo de confirmação
+const GIFT_URL = "";   // página de pagamento/Pix (opcional; se vazio, mostra o painel Pix)
+
+lucide.createIcons();
+
+// Menu móvel
+const menuBtn = document.getElementById('menu-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+function setMenu(open){
+  mobileMenu.classList.toggle('hidden', !open);
+  menuBtn.setAttribute('aria-expanded', String(open));
+  menuBtn.setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+}
+menuBtn.addEventListener('click', () => setMenu(mobileMenu.classList.contains('hidden')));
+mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
+
+// Toasts
+let toastTimer;
+function toast(id){
+  document.querySelectorAll('.toast').forEach(t => t.classList.add('hidden'));
+  const el = document.getElementById(id);
+  el.classList.remove('hidden');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.add('hidden'), 3200);
+}
+function openOrPending(url){ url ? window.open(url, '_blank', 'noopener') : toast('toast-pending'); }
+
+document.getElementById('maps-btn').addEventListener('click', () => openOrPending(MAPS_URL));
+document.getElementById('rsvp-btn').addEventListener('click', () => openOrPending(RSVP_URL));
+
+// Presentes
+const pix = document.getElementById('pix-panel');
+document.querySelectorAll('.gift-btn').forEach(btn => btn.addEventListener('click', () => {
+  if (GIFT_URL) { window.open(GIFT_URL, '_blank', 'noopener'); return; }
+  document.querySelectorAll('.gift-card').forEach(c => c.classList.remove('selected'));
+  btn.closest('.gift-card').classList.add('selected');
+  pix.classList.remove('hidden');
+  pix.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  pix.focus({ preventScroll: true });
+}));
+
+// Compartilhar
+/* compartilhamento removido */
+/*
+  const url = SHARE_URL || window.location.href;
+  if (navigator.share) {
+    try { await navigator.share({ title: 'Natan & Thayná · 09.01.2027', url }); return; }
+    catch (e) { if (e && e.name === 'AbortError') return; }
+  }
+  try { await navigator.clipboard.writeText(url); toast('toast-copied'); }
+  catch { toast('toast-error'); }
+*/
+
+// Contagem: Campo Grande (MS) = UTC-04:00, sem horário de verão
+const TARGET = new Date('2027-01-09T19:00:00-04:00').getTime();
+const pad = n => String(n).padStart(2, '0');
+const els = { d: document.getElementById('cd-d'), h: document.getElementById('cd-h'), m: document.getElementById('cd-m'), s: document.getElementById('cd-s') };
+let timer;
+function tick(){
+  const diff = TARGET - Date.now();
+  if (diff <= 0) {
+    document.getElementById('countdown-running').classList.add('hidden');
+    document.getElementById('countdown-done').classList.remove('hidden');
+    clearInterval(timer); return;
+  }
+  const s = Math.floor(diff / 1000);
+  els.d.textContent = Math.floor(s / 86400);
+  els.h.textContent = pad(Math.floor(s % 86400 / 3600));
+  els.m.textContent = pad(Math.floor(s % 3600 / 60));
+  els.s.textContent = pad(s % 60);
+}
+tick(); timer = setInterval(tick, 1000);
+
+// Revelação ao rolar
+const io = new IntersectionObserver(entries => entries.forEach(en => {
+  if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+}), { threshold: 0.12 });
+document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+</script>
+
+<script id="mobile-menu-links-fix">
+document.addEventListener("DOMContentLoaded", function () {
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    if (!mobileMenu) return;
+
+    mobileMenu.querySelectorAll("a").forEach(function (link) {
+        link.addEventListener("click", function () {
+            mobileMenu.classList.add("hidden");
+
+            const menuBtn = document.getElementById("menu-btn");
+
+            if (menuBtn) {
+                menuBtn.setAttribute("aria-expanded", "false");
+                menuBtn.setAttribute("aria-label", "Abrir menu");
+            }
+        });
+    });
+});
+</script>
+
+
+<script id="navigation-fix">
+document.addEventListener("DOMContentLoaded", function () {
+
+    document.querySelectorAll('a[href^="#"]').forEach(function (link) {
+
+        link.addEventListener("click", function (event) {
+
+            const destino = this.getAttribute("href");
+
+            if (!destino || destino === "#") {
+                return;
+            }
+
+            const elemento = document.querySelector(destino);
+
+            if (!elemento) {
+                return;
+            }
+
+            event.preventDefault();
+
+            elemento.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+
+            history.replaceState(null, "", destino);
+
+            // Fecha o menu mobile, se estiver aberto
+            const mobileMenu = document.getElementById("mobile-menu");
+            const menuBtn = document.getElementById("menu-btn");
+
+            if (mobileMenu) {
+                mobileMenu.classList.add("hidden");
+            }
+
+            if (menuBtn) {
+                menuBtn.setAttribute("aria-expanded", "false");
+                menuBtn.setAttribute("aria-label", "Abrir menu");
+            }
+        });
+
+    });
+
+});
+</script>
+
+</body></html>
